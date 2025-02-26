@@ -45,7 +45,7 @@ const SignUpForm = () => {
             Alx Data Hackathon Series
           </span>
         </h2>
-        <p className="text-center text-white text-xl mb-8">Unleash Your Coding Potential!</p>
+        <p className="text-center text-black text-xl mb-8">Unleash Your Coding Potential!</p>
         <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
           {({ isSubmitting }) => (
             <Form className="space-y-4">
@@ -57,7 +57,7 @@ const SignUpForm = () => {
                   type="text"
                   id="fullName"
                   name="fullName"
-                  className="mt-1 block w-full rounded-md bg-white bg-opacity-70 border-transparent placeholder-gray-500 text-black focus:border-white focus:bg-opacity-90 focus:ring-0 transition-all duration-200"
+                  className="border border-gray-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-300 rounded-md p-2 w-full text-black placeholder-gray-700"
                   placeholder="John Doe"
                 />
                 <ErrorMessage name="fullName" component="div" className="text-red-300 text-sm mt-1" />
@@ -71,7 +71,7 @@ const SignUpForm = () => {
                   type="email"
                   id="email"
                   name="email"
-                  className="mt-1 block w-full rounded-md bg-white bg-opacity-70 border-transparent placeholder-gray-500 text-black focus:border-white focus:bg-opacity-90 focus:ring-0 transition-all duration-200"
+                 className="border border-gray-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-300 rounded-md p-2 w-full text-black placeholder-gray-700"
                   placeholder="john@example.com"
                 />
                 <ErrorMessage name="email" component="div" className="text-red-300 text-sm mt-1" />
@@ -85,7 +85,7 @@ const SignUpForm = () => {
                   type="tel"
                   id="phoneNumber"
                   name="phoneNumber"
-                  className="mt-1 block w-full rounded-md bg-white bg-opacity-70 border-transparent placeholder-gray-500 text-black focus:border-white focus:bg-opacity-90 focus:ring-0 transition-all duration-200"
+                 className="border border-gray-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-300 rounded-md p-2 w-full text-black placeholder-gray-700"
                   placeholder="1234567890"
                 />
                 <ErrorMessage name="phoneNumber" component="div" className="text-red-300 text-sm mt-1" />
@@ -99,7 +99,7 @@ const SignUpForm = () => {
                   type="text"
                   id="organization"
                   name="organization"
-                  className="mt-1 block w-full rounded-md bg-white bg-opacity-70 border-transparent placeholder-gray-500 text-black focus:border-white focus:bg-opacity-90 focus:ring-0 transition-all duration-200"
+                 className="border border-gray-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-300 rounded-md p-2 w-full text-black placeholder-gray-700"
                   placeholder="Tech Company Inc."
                 />
               </div>
@@ -112,7 +112,7 @@ const SignUpForm = () => {
                   as="select"
                   id="experienceLevel"
                   name="experienceLevel"
-                  className="mt-1 block w-full rounded-md bg-white bg-opacity-70 border-transparent text-black focus:border-white focus:bg-opacity-90 focus:ring-0 transition-all duration-200"
+                className="border border-gray-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-300 rounded-md p-2 w-full text-black placeholder-gray-700"
                 >
                   <option value="">Select your experience level</option>
                   <option value="Newbie Coder">Newbie Coder</option>
@@ -123,28 +123,28 @@ const SignUpForm = () => {
               </div>
 
               <div>
-                <label htmlFor="course" className="block text-sm font-medium text-black">
+                <label htmlFor="course" className="block text-sm font-medium text-black ">
                   Course
                 </label>
                 <Field
                   as="select"
                   id="course"
                   name="course"
-                  className="mt-1 block w-full rounded-md bg-white bg-opacity-70 border-transparent text-black focus:border-white focus:bg-opacity-90 focus:ring-0 transition-all duration-200"
+                 className="border border-gray-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-300 rounded-md p-2 w-full text-black placeholder-gray-700"
                 >
                   <option value="">Select a course</option>
-                  <option value="Data Science">Data Science (16 months)</option>
-                  <option value="Data Analytics">Data Analytics (8 months)</option>
-                  <option value="ProDev Front-End Developer">ProDev Front-End Developer (8 months)</option>
-                  <option value="Front-End Web Development">Front-End Web Development (8 months)</option>
-                  <option value="ProDev Back-End Developer">ProDev Back-End Developer (8 months)</option>
-                  <option value="Back-End Web Development">Back-End Web Development (8 months)</option>
-                  <option value="AWS Cloud Computing">AWS Cloud Computing (10 months)</option>
-                  <option value="Salesforce Administrator">Salesforce Administrator (9 months)</option>
-                  <option value="Virtual Assistant">Virtual Assistant (2 months)</option>
-                  <option value="Professional Foundations">Professional Foundations (3 months)</option>
-                  <option value="AI Career Essentials">AI Career Essentials (6 weeks)</option>
-                  <option value="AI Starter Kit">AI Starter Kit (4 weeks)</option>
+                  <option value="Data Science">Data Science </option>
+                  <option value="Data Analytics">Data Analytics </option>
+                  <option value="ProDev Front-End Developer">ProDev Front-End Developer</option>
+                  <option value="Front-End Web Development">Front-End Web Development </option>
+                  <option value="ProDev Back-End Developer">ProDev Back-End Developer </option>
+                  <option value="Back-End Web Development">Back-End Web Development </option>
+                  <option value="AWS Cloud Computing">AWS Cloud Computing </option>
+                  <option value="Salesforce Administrator">Salesforce Administrator </option>
+                  <option value="Virtual Assistant">Virtual Assistant </option>
+                  <option value="Professional Foundations">Professional Foundations </option>
+                  <option value="AI Career Essentials">AI Career Essentials </option>
+                  <option value="AI Starter Kit">AI Starter Kit </option>
                 </Field>
                 <ErrorMessage name="course" component="div" className="text-red-300 text-sm mt-1" />
               </div>
