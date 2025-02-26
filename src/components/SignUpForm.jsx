@@ -42,7 +42,7 @@ const SignUpForm = () => {
       >
         <h2 className="text-4xl font-bold text-center text-white mb-6">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
-            Data Hackathons Series
+            Data Hackathon Series
           </span>
         </h2>
         <p className="text-center text-white text-xl mb-8">Unleash Your Coding Potential!</p>
