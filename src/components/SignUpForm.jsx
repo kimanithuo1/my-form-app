@@ -115,9 +115,9 @@ const SignUpForm = () => {
                 className="border border-gray-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-300 rounded-md p-2 w-full text-black placeholder-gray-700"
                 >
                   <option value="">Select your experience level</option>
-                  <option value="Newbie Coder">Newbie Coder</option>
-                  <option value="Code Wizard">Code Wizard</option>
-                  <option value="AI Warlord">AI Warlord</option>
+                  <option value="Newbie Coder">Beginner </option>
+                  <option value="Code Wizard">Intermediate </option>
+                  <option value="AI Warlord">Pro Developer</option>
                 </Field>
                 <ErrorMessage name="experienceLevel" component="div" className="text-red-300 text-sm mt-1" />
               </div>
